@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge, chrome=1"/>
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+	<title> My Banner </title>
+	<link rel="stylesheet" href="homeStyle.css">
+</head>
+<body>
+
+	<header>
+		<div class ="wrapper">
+			<div class = "logo">
+				<a href ="home.html"><img src="images/bobo-icon.png">Ooki</a>
+			</div>
+			<nav>
+				<a href ="home.html">Home</a>
+				<a href ="demos.html">Demos</a>
+				<a href ="about.html">About</a>
+				<a href ="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+	<section class = "banner-area">
+		<h2>OokiToaster_</h2>
+		<h3>Voice Actor | Content Creator | Streamer</h3>
+	</section>
+
+	<section class = "about-area">
+		<h1>About OokiToaster_</h1>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit mollis tellus sit amet porta. Morbi sapien ex, sollicitudin sit amet aliquam sed, semper eget dui. Fusce aliquet leo nec lorem consectetur rhoncus. Fusce iaculis justo turpis, at tristique lectus varius ac. In vitae mi nec libero convallis mollis. Mauris leo urna, tincidunt ut augue vitae, vestibulum egestas dui. Nam volutpat turpis venenatis auctor varius. Phasellus at urna nec neque fermentum sollicitudin. Integer sit amet neque non orci blandit lobortis nec ac justo. Nulla eget congue turpis. Fusce vehicula ipsum felis, quis pellentesque eros vestibulum id. Cras sed lobortis mi. Sed in mauris pulvinar, varius lorem ac, vehicula lorem. Sed volutpat luctus arcu, eu cursus augue vulputate id. Curabitur vitae lorem facilisis tellus suscipit sollicitudin non vitae nisi.
+		</p>
+	</section>
+
+	<section class = "demos-area">
+		<h1>Ooki's Demos</h1>
+		<div class = "contact-table">
+			<div class = "contact-col">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit mollis tellus sit amet porta. Morbi sapien ex, sollicitudin sit amet aliquam sed, semper eget dui. Fusce aliquet leo nec lorem consectetur rhoncus.</p>
+				<br>
+				<p>Audio 1</p>
+				<audio controls="controls">
+					<source src = "audio/immortality.wav" type="audio/wav">
+				</audio>
+				<br>
+				<p>Audio 2</p>
+				<audio controls="controls">
+				<source src = "audio/immortality.wav" type="audio/wav">
+				</audio>
+				<br>
+				<p>Audio 3</p>
+				<audio controls="controls">
+					<source src = "audio/immortality.wav" type="audio/wav">
+				</audio>
+				<br>
+			</div>
+			<div class = "contact-col">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit mollis tellus sit amet porta. Morbi sapien ex, sollicitudin sit amet aliquam sed, semper eget dui. Fusce aliquet leo nec lorem consectetur rhoncus.</p>
+			</div>
+		</div>
+		
+	</section>
+
+	<section class = "contact-area">
+		<h2>Contact Ooki</h2>
+		<div class = "contact-table">
+			<div class = "contact-col">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit mollis tellus sit amet porta. Morbi sapien ex, sollicitudin sit amet aliquam sed, semper eget dui. Fusce aliquet leo nec lorem consectetur rhoncus. Fusce iaculis justo turpis, at tristique lectus varius ac. In vitae mi nec libero convallis mollis. </p>
+				<br>
+				<p><ion-icon name="call-outline"></ion-icon>(+63) 929 - 272 - 7046</p>
+				<br>
+				<p><ion-icon name="mail-outline"></ion-icon>toastermonkii614@gmail.com</p>
+				<br>
+				<p><ion-icon name="location-outline"></ion-icon>King William House, 4th Floor, 13, Queen Square, Bristol BS1 4NT, United Kingdom</p>
+				<br>
+				<a class = "social-icon" href = "#" target=" _blank">
+					<ion-icon name="logo-twitch"></ion-icon>
+				</a>
+				<a class = "social-icon" href = "#" target=" _blank">
+					<ion-icon name="logo-youtube"></ion-icon>
+				</a>
+				<a class = "social-icon" href = "#" target=" _blank">
+					<ion-icon name="logo-twitter"></ion-icon>
+				</a>
+
+			</div>
+			<div class = "contact-col">
+				<form action="#" method="post">
+					<fieldset>
+					<label for = "fullName"> Your Name:</label>
+					<input type="text" name="fullName" id="fullName">
+
+					<label for = "email"> Your Email:</label>
+					<input type="email" name="emai" id="email">
+
+					<label for = "phone"> Phone #:</label>
+					<input type="tel" name="phone" id="phone">
+
+					<label for="msg">Your Message:</label>
+					<textarea name ="msg" id="msg"></textarea>
+
+					<div class="checks">
+					<input type="checkbox" name="copyEmail" id="copyEmail">
+					<label for="copyEmail">Send copy to my email</label>
+					</div>
+
+					<div class = "checks">
+					<p>Preferred method of contact:</p>
+
+					<input type="radio" name="contact" id="contactEmail" value="email">
+					<label for="contactEmail">Email</label>
+					<input type="radio" name="contact" id="contactTel" value="phone">
+					<label for="contactPhone">Phone</label>
+					<input type="radio" name="contact" id="contactText" value="text">
+					<label for="contactText">Text Message</label>
+					</div>
+
+					<input type="submit" id="submit" value="Contact Us">
+
+					</fieldset>
+				</form>
+				
+			</div>
+		</div>
+	</section>
+
+	<section class = "footer">
+		<a class = "social-icon" href = "#" target=" _blank">
+			<ion-icon name="logo-twitch"></ion-icon>
+		</a>
+		<a class = "social-icon" href = "#" target=" _blank">
+			<ion-icon name="logo-youtube"></ion-icon>
+		</a>
+		<a class = "social-icon" href = "#" target=" _blank">
+			<ion-icon name="logo-twitter"></ion-icon>
+		</a>
+		<h4> All Rights Reserved| &copy; OokiToaster_ 2022</h4>
+	</section>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
